@@ -40,6 +40,9 @@ header{
     background-color: #b28756; 
     border-radius: 40px; 
 }
+.menu-open{
+    display: none;
+}
 .menu{
 flex: 1;
 display: flex;
