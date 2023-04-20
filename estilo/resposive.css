@@ -140,4 +140,224 @@
 .redes-sociais{
     margin-top: 20px;
 }
+.form-rodape{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+}
+@media screen and (min-width:200px) and (max-width:600px){
+    html, body{
+        overflow-x: hidden;
+    }
+    
+    .logo{
+        margin-left: 10px;
+    }
+    .menu-open{
+        display: block;
+        margin-right: 30px;
+        width: 35px;
+    }
+   nav{
+    display:  none;
+    position: absolute;
+    z-index: 99;
+    width: 80vw;
+    height: calc(100vw - 100px);
+    top: 100px;
+    right: 0px;
+   }
+   .menu ul{
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+
+   }
+   .menu li a{
+    height: 60px;
+    border-bottom: none;
+    font-size: 16px;
+    margin-left: 50px;
+   }
+   .menu li.active a{
+    border: 0px;
+    color: #b28756;
+   }
+   .banner{
+    height: 350px;
+   } 
+   .banner h1{
+    font-size: 22px;
+   }
+   .banner h2{
+    font-size: 15px;
+   }
+   .section--aboutus{
+    flex-direction: column;
+   }
+   .section--aboutus p {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+   }
+   .section--aboutus a{
+    display: flex;
+    justify-content: center;
+   }
+   .section--aboutus img{
+    max-width: 350px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+   }
+   .services{
+    flex-direction: column;
+   }
+   .medalha{
+    margin-bottom: 10px;
+    border: none;
+   }
+   .medalha:first-child{
+    border: none;
+   }
+   .section-projects{
+    margin: 15px;
+   }
+   .section-projects--filters li {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    color: #555;
+    width: 200px;
+    border: none;
+}
+.section-projects--filters li:hover{
+    background-color: #b28756;
+    color: #fff;
+}
+.section-projects--filters li.active{
+    border: none;
+}
+.section-team{
+    width:280px ;
+   }
+   .section-team--area .sliders-pointers{
+    width: auto;
+   }
+   .review-clients{
+    width: auto;
+   }
+   .review-clients p{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 10px;
+   }
+   section .empresas {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    flex-wrap: wrap;
+}
+   section .empresas img{
+    width: 100px;
+    margin: none;
+    padding: 20px;
+   }
+
+
+   .section-table--pracing{
+    margin-right: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+    .prices{
+        margin-top: 20px;
+        margin-right: 0px;
+   }
+   .section-table--pracing:first-child{
+    margin-left: 10px;
+   }
+   .box{
+    flex-direction: column;
+   }
+   .livro {
+    margin-left: 70px;
+    width: 280px;
+}
+   .section--box {
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.265);
+    width: 100vw;
+    margin: auto;
+    justify-content: center;
+}
+   .descrtition--box {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.sos {
+    display: flex;
+    margin-right: 100px;
+}
+.section-body .btn{
+    margin-left: 30px;
+}
+
+.numbers-work {
+    display: inline-flex;
+    margin-left: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.shared, .share {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    flex-direction: column;
+    padding: 10px;
+}
+.shared a{
+    padding: 10px;
+}
+.cadastre #iname {
+    display: flex;
+    flex-direction: column;
+}
+.section-body .btn{
+    margin-left: 0px;
+}
+.info-mapa{
+    margin: auto;
+    width: 300px;
+    height: 350px;
+}
+.info-mapa .mapa-contato{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#rodape{
+    flex-direction: column;
+    height: auto;
+}
+.text-rodape {
+    color: #fff;
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+.redes-sociais{
+    margin-top: 20px;
+}
+.form-rodape{
+    padding: 20px 60px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
 }
